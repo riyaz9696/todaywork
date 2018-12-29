@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Webpage with Style</title>
+	<style type="text/css">
+		.red{
+			color: red;
+		}
+		.large{
+			font-size: 200%;
+		}
+		#green{
+			color: green;
+		}
+		.underlined{
+			text-decoration: underline;
+		}
+		#first-section{
+			color: #4285F4;
+			background-color: #CEF6CE;
+			width: 200px;
+			margin-left: 150px;     /*margin works as clock wise*//*difference between margin and absolute....?*/
+			
+
+		}
+		#second-section{
+			background-color:#8AB4F7;
+			width: 400px;
+			padding: 5px 10px 15px 20px;  /*it will provide spacing*/
+				
+		}
+		body{
+			margin: 0;
+			padding: 0;   /*here in body will remove space from the page up and down*/
+		}
+		p{
+			margin: 0;
+			padding: 0;
+		}
+
+	
+	</style>
+</head>
+<body>
+
+	<!-- Here we will use Internal CSS -->
+	<div id="first-section">
+<p>The quick brown fox jumped of the Lazy dog.</p>
+<p>Wow, I love Internal CSS</p>
+</div>
+<div id="second-section">
+<p id="green">This is for ID's Paragraph.<span class="underlined">This text is underlined.</span></p>
+
+<h1 class="red">CSS is Cool!</h1>
+</div>
+
+</body>
+</html>
